@@ -1,0 +1,167 @@
+[
+    {
+      "id": "Q1",
+      "question": "¿Qué es la atmósfera?",
+      "options": [
+        { "key": "a", "text": "Una capa de agua que cubre la Tierra" },
+        { "key": "b", "text": "Una capa gaseosa que rodea la Tierra" },
+        { "key": "c", "text": "Una capa de roca sobre la superficie terrestre" },
+        { "key": "d", "text": "Una zona sin aire donde ocurre la gravedad" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q2",
+      "question": "¿Cuál es el gas más abundante en la atmósfera terrestre?",
+      "options": [
+        { "key": "a", "text": "Oxígeno (O2)" },
+        { "key": "b", "text": "Dióxido de carbono (CO2)" },
+        { "key": "c", "text": "Nitrógeno (N2)" },
+        { "key": "d", "text": "Argón (Ar)" }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q3",
+      "question": "¿Qué nombre recibe la capa de la atmósfera donde ocurre el efecto invernadero?",
+      "options": [
+        { "key": "a", "text": "Estratosfera" },
+        { "key": "b", "text": "Troposfera" },
+        { "key": "c", "text": "Mesosfera" },
+        { "key": "d", "text": "Exosfera" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q4",
+      "question": "¿Por qué es importante la capa de ozono?",
+      "options": [
+        { "key": "a", "text": "Absorbe la radiación ultravioleta del sol" },
+        { "key": "b", "text": "Genera oxígeno para la atmósfera" },
+        { "key": "c", "text": "Crea el efecto invernadero" },
+        { "key": "d", "text": "Aumenta la temperatura de la Tierra" }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q5",
+      "question": "¿Cuál de los siguientes es un contaminante atmosférico primario?",
+      "options": [
+        { "key": "a", "text": "Ozono (O3)" },
+        { "key": "b", "text": "Dióxido de azufre (SO2)" },
+        { "key": "c", "text": "Nitrógeno (N2)" },
+        { "key": "d", "text": "Vapor de agua (H2O)" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q6",
+      "question": "¿Cuál es la principal causa de emisión de monóxido de carbono (CO)?",
+      "options": [
+        { "key": "a", "text": "Fotosíntesis de las plantas" },
+        { "key": "b", "text": "Erupciones volcánicas" },
+        { "key": "c", "text": "Combustión incompleta de combustibles fósiles" },
+        { "key": "d", "text": "Evaporación del agua" }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q7",
+      "question": "¿Cuál de las siguientes actividades humanas contribuye más al cambio climático?",
+      "options": [
+        { "key": "a", "text": "Uso de bicicletas" },
+        { "key": "b", "text": "Deforestación y quema de combustibles fósiles" },
+        { "key": "c", "text": "Reciclaje de plásticos" },
+        { "key": "d", "text": "Construcción de edificios de madera" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q8",
+      "question": "¿Cómo afecta la lluvia ácida a los ecosistemas?",
+      "options": [
+        { "key": "a", "text": "Mejora la fertilidad del suelo" },
+        { "key": "b", "text": "Aumenta la biodiversidad" },
+        { "key": "c", "text": "Daña los suelos, bosques y cuerpos de agua" },
+        { "key": "d", "text": "Elimina metales pesados de la atmósfera" }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q9",
+      "question": "¿Qué tipo de fuente de contaminación es un automóvil?",
+      "options": [
+        { "key": "a", "text": "Fuente fija" },
+        { "key": "b", "text": "Fuente natural" },
+        { "key": "c", "text": "Fuente móvil" },
+        { "key": "d", "text": "Fuente industrial" }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q10",
+      "question": "¿Cuál es un método común para reducir la contaminación del aire en fábricas?",
+      "options": [
+        { "key": "a", "text": "Quemar más carbón" },
+        { "key": "b", "text": "Instalar filtros y precipitadores electrostáticos" },
+        { "key": "c", "text": "Aumentar la altura de las chimeneas" },
+        { "key": "d", "text": "Construir más carreteras" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q11",
+      "question": "¿Cuál de los siguientes gases tiene mayor impacto en el calentamiento global?",
+      "options": [
+        { "key": "a", "text": "Oxígeno (O2)" },
+        { "key": "b", "text": "Nitrógeno (N2)" },
+        { "key": "c", "text": "Metano (CH4)" },
+        { "key": "d", "text": "Argón (Ar)" }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q12",
+      "question": "¿Qué normativa nacional establece el derecho a un ambiente sano en Argentina?",
+      "options": [
+        { "key": "a", "text": "Ley de Residuos Peligrosos" },
+        { "key": "b", "text": "Constitución Nacional - Art. 41" },
+        { "key": "c", "text": "Código Civil" },
+        { "key": "d", "text": "Resolución 559/2019" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q13",
+      "question": "¿Qué es el efecto invernadero?",
+      "options": [
+        { "key": "a", "text": "Un fenómeno causado por la destrucción de la capa de ozono" },
+        { "key": "b", "text": "Un proceso natural que mantiene la temperatura de la Tierra atrapando calor en la atmósfera" },
+        { "key": "c", "text": "Un tipo de contaminación causada por el smog" },
+        { "key": "d", "text": "Un fenómeno artificial provocado solo por fábricas" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q14",
+      "question": "¿Qué fuente de energía no genera emisiones de gases contaminantes?",
+      "options": [
+        { "key": "a", "text": "Carbón" },
+        { "key": "b", "text": "Energía solar" },
+        { "key": "c", "text": "Gas natural" },
+        { "key": "d", "text": "Petróleo" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q15",
+      "question": "¿Por qué es importante monitorear la calidad del aire?",
+      "options": [
+        { "key": "a", "text": "Para aumentar el consumo de energía" },
+        { "key": "b", "text": "Para conocer el nivel de contaminantes y tomar medidas de control" },
+        { "key": "c", "text": "Para reducir la cantidad de oxígeno en la atmósfera" },
+        { "key": "d", "text": "Para incrementar la emisión de gases de efecto invernadero" }
+      ],
+      "correct_answer": "b"
+    }
+  ]

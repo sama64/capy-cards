@@ -1,0 +1,167 @@
+[
+    {
+      "id": "Q1",
+      "question": "¿Cuál es el gas más abundante en la troposfera?",
+      "options": [
+        { "key": "a", "text": "Oxígeno (O2)" },
+        { "key": "b", "text": "Nitrógeno (N2)" },
+        { "key": "c", "text": "Dióxido de carbono (CO2)" },
+        { "key": "d", "text": "Argón (Ar)" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q2",
+      "question": "¿Cuál de los siguientes gases no contribuye significativamente al efecto invernadero?",
+      "options": [
+        { "key": "a", "text": "Vapor de agua (H2O)" },
+        { "key": "b", "text": "Dióxido de carbono (CO2)" },
+        { "key": "c", "text": "Metano (CH4)" },
+        { "key": "d", "text": "Argón (Ar)" }
+      ],
+      "correct_answer": "d"
+    },
+    {
+      "id": "Q3",
+      "question": "¿Dónde se encuentra la capa de ozono y cuál es su función principal?",
+      "options": [
+        { "key": "a", "text": "En la troposfera, regula la temperatura de la Tierra" },
+        { "key": "b", "text": "En la estratosfera, absorbe la radiación ultravioleta" },
+        { "key": "c", "text": "En la mesosfera, reduce el calentamiento global" },
+        { "key": "d", "text": "En la termosfera, protege contra la radiación infrarroja" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q4",
+      "question": "¿Qué compuesto químico es responsable de la formación de lluvia ácida?",
+      "options": [
+        { "key": "a", "text": "Dióxido de carbono (CO2)" },
+        { "key": "b", "text": "Dióxido de azufre (SO2)" },
+        { "key": "c", "text": "Metano (CH4)" },
+        { "key": "d", "text": "Ozono (O3)" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q5",
+      "question": "¿Cuál de los siguientes contaminantes afecta la capacidad de la sangre para transportar oxígeno?",
+      "options": [
+        { "key": "a", "text": "Dióxido de azufre (SO2)" },
+        { "key": "b", "text": "Monóxido de carbono (CO)" },
+        { "key": "c", "text": "Partículas en suspensión (PM10)" },
+        { "key": "d", "text": "Óxidos de nitrógeno (NOx)" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q6",
+      "question": "¿Cuál es la principal fuente de emisión de óxidos de nitrógeno (NOx)?",
+      "options": [
+        { "key": "a", "text": "Combustión de biomasa" },
+        { "key": "b", "text": "Evaporación de solventes" },
+        { "key": "c", "text": "Combustión a alta temperatura en motores y plantas de energía" },
+        { "key": "d", "text": "Procesos de fotosíntesis" }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q7",
+      "question": "¿Qué característica tiene la inversión térmica en la contaminación atmosférica?",
+      "options": [
+        { "key": "a", "text": "Favorece la dispersión de los contaminantes" },
+        { "key": "b", "text": "Atrapa los contaminantes cerca de la superficie terrestre" },
+        { "key": "c", "text": "Acelera la degradación de contaminantes" },
+        { "key": "d", "text": "Reduce la formación de esmog" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q8",
+      "question": "¿Cuál de los siguientes métodos se usa para capturar material particulado fino en las emisiones industriales?",
+      "options": [
+        { "key": "a", "text": "Lavadores de gases" },
+        { "key": "b", "text": "Filtros de mangas" },
+        { "key": "c", "text": "Conversión catalítica" },
+        { "key": "d", "text": "Enfriamiento de gases" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q9",
+      "question": "¿Qué gas es el principal responsable de la contaminación generada por la ganadería?",
+      "options": [
+        { "key": "a", "text": "Óxidos de nitrógeno (NOx)" },
+        { "key": "b", "text": "Dióxido de carbono (CO2)" },
+        { "key": "c", "text": "Metano (CH4)" },
+        { "key": "d", "text": "Monóxido de carbono (CO)" }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q10",
+      "question": "Según la Ley Nacional de Ambiente de Argentina (Ley N° 25.675), ¿cuál es su principal objetivo?",
+      "options": [
+        { "key": "a", "text": "Regular las emisiones industriales" },
+        { "key": "b", "text": "Garantizar un ambiente sano y equilibrado" },
+        { "key": "c", "text": "Prohibir el uso de combustibles fósiles" },
+        { "key": "d", "text": "Controlar únicamente la contaminación del aire" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q11",
+      "question": "¿Cuál de las siguientes ciudades es reconocida por tener problemas severos de contaminación del aire?",
+      "options": [
+        { "key": "a", "text": "Buenos Aires" },
+        { "key": "b", "text": "Berlín" },
+        { "key": "c", "text": "Santiago de Chile" },
+        { "key": "d", "text": "Madrid" }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q12",
+      "question": "¿Cuál es el mecanismo de medición aprobado por la EPA para muestrear gases contaminantes?",
+      "options": [
+        { "key": "a", "text": "Filtros de mangas" },
+        { "key": "b", "text": "Método de burbujeo" },
+        { "key": "c", "text": "Análisis espectrofotométrico" },
+        { "key": "d", "text": "Sistema de absorción por láser" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q13",
+      "question": "¿Cuál es el propósito principal de los precipitadores electrostáticos en el control de emisiones?",
+      "options": [
+        { "key": "a", "text": "Reducir la emisión de gases de efecto invernadero" },
+        { "key": "b", "text": "Eliminar partículas finas y aerosoles ácidos del aire" },
+        { "key": "c", "text": "Aumentar la eficiencia de combustión en calderas" },
+        { "key": "d", "text": "Transformar compuestos orgánicos en energía" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q14",
+      "question": "¿Qué característica tiene el material utilizado en los filtros de mangas?",
+      "options": [
+        { "key": "a", "text": "Debe resistir temperaturas mayores a 500°C" },
+        { "key": "b", "text": "Está hecho de tela de felpa, como polipropileno" },
+        { "key": "c", "text": "Es una malla metálica conductora de electricidad" },
+        { "key": "d", "text": "Es un material cerámico altamente poroso" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q15",
+      "question": "¿Cuál de los siguientes elementos no es tratado comúnmente en los lavadores de gases?",
+      "options": [
+        { "key": "a", "text": "Ácido sulfúrico (H2SO4)" },
+        { "key": "b", "text": "Ácido fluorhídrico (HF)" },
+        { "key": "c", "text": "Dióxido de carbono (CO2)" },
+        { "key": "d", "text": "Ácido clorhídrico (HCl)" }
+      ],
+      "correct_answer": "c"
+    }
+  ]

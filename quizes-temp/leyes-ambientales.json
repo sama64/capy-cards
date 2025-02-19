@@ -1,0 +1,347 @@
+[
+    {
+      "id": "Q1",
+      "question": "¿Qué establece el artículo 41 de la Constitución Nacional Argentina?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Que las industrias deben reducir sus emisiones en un 50%"
+        },
+        {
+          "key": "b",
+          "text": "Que los habitantes tienen derecho a un ambiente sano y equilibrado"
+        },
+        {
+          "key": "c",
+          "text": "Que solo el Estado puede fiscalizar la contaminación"
+        },
+        {
+          "key": "d",
+          "text": "Que los municipios son los únicos responsables del control ambiental"
+        }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q2",
+      "question": "¿Cuál es el principal objetivo de la Ley Nacional de Ambiente (Ley N° 25.675)?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Regular exclusivamente la contaminación del aire"
+        },
+        {
+          "key": "b",
+          "text": "Establecer los presupuestos mínimos para una gestión ambiental sostenible"
+        },
+        {
+          "key": "c",
+          "text": "Prohibir el uso de combustibles fósiles"
+        },
+        {
+          "key": "d",
+          "text": "Controlar únicamente la contaminación industrial"
+        }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q3",
+      "question": "¿Cuál es la principal normativa en Argentina sobre residuos peligrosos?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Ley N° 25.675"
+        },
+        {
+          "key": "b",
+          "text": "Ley N° 24.051"
+        },
+        {
+          "key": "c",
+          "text": "Resolución 559/2019"
+        },
+        {
+          "key": "d",
+          "text": "Decreto 831/93"
+        }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q4",
+      "question": "Según la Ley de Residuos Peligrosos (Ley N° 24.051), ¿qué se considera un residuo peligroso?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Cualquier residuo industrial"
+        },
+        {
+          "key": "b",
+          "text": "Solo los residuos radiactivos"
+        },
+        {
+          "key": "c",
+          "text": "Todo residuo que pueda causar daño a seres vivos o contaminar el ambiente"
+        },
+        {
+          "key": "d",
+          "text": "Cualquier sustancia química en estado líquido"
+        }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q5",
+      "question": "¿Qué exige el Decreto 1074/18 a los establecimientos que emiten gases contaminantes?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Obtener la Licencia de Emisiones Gaseosas a la Atmósfera (LEGA)"
+        },
+        {
+          "key": "b",
+          "text": "Eliminar todas sus emisiones contaminantes"
+        },
+        {
+          "key": "c",
+          "text": "Presentar informes cada 10 años"
+        },
+        {
+          "key": "d",
+          "text": "Solo reportar emisiones si afectan a más de 100 personas"
+        }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q6",
+      "question": "¿Cuál es la validez de la Licencia de Emisiones Gaseosas a la Atmósfera (LEGA)?",
+      "options": [
+        {
+          "key": "a",
+          "text": "1 año"
+        },
+        {
+          "key": "b",
+          "text": "2 años"
+        },
+        {
+          "key": "c",
+          "text": "4 años"
+        },
+        {
+          "key": "d",
+          "text": "10 años"
+        }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q7",
+      "question": "¿Qué establece el Decreto 831/93 en relación con la calidad del aire?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Define los niveles guía de calidad del aire y los límites permisibles de contaminantes"
+        },
+        {
+          "key": "b",
+          "text": "Prohíbe cualquier emisión industrial de gases"
+        },
+        {
+          "key": "c",
+          "text": "Obliga a las empresas a medir emisiones cada 10 años"
+        },
+        {
+          "key": "d",
+          "text": "Establece la eliminación total del monóxido de carbono en el aire"
+        }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q8",
+      "question": "¿Qué establece la Ley N° 5965 de la Provincia de Buenos Aires?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Regula exclusivamente la contaminación del agua"
+        },
+        {
+          "key": "b",
+          "text": "Protege las fuentes de provisión de agua y la atmósfera"
+        },
+        {
+          "key": "c",
+          "text": "Prohíbe la emisión de CO2 en la provincia"
+        },
+        {
+          "key": "d",
+          "text": "Obliga a todas las industrias a trasladarse a zonas rurales"
+        }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q9",
+      "question": "¿Qué ocurre si una empresa en Argentina emite sustancias peligrosas no incluidas en la normativa vigente?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Debe solicitar a la Autoridad de Aplicación la definición del valor guía correspondiente"
+        },
+        {
+          "key": "b",
+          "text": "Puede continuar operando sin restricciones"
+        },
+        {
+          "key": "c",
+          "text": "Solo debe informar si la emisión supera los 1000 kg al año"
+        },
+        {
+          "key": "d",
+          "text": "No necesita realizar ninguna acción"
+        }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q10",
+      "question": "Según la normativa vigente, ¿qué documentación debe respaldar el monitoreo de emisiones gaseosas?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Un informe visual de las emisiones"
+        },
+        {
+          "key": "b",
+          "text": "Los resultados de monitoreos y planes de corrección o adecuación"
+        },
+        {
+          "key": "c",
+          "text": "Una declaración jurada firmada por la empresa"
+        },
+        {
+          "key": "d",
+          "text": "Fotografías de las chimeneas industriales"
+        }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q11",
+      "question": "¿Qué exige la Resolución 559/2019 en relación con la toma de muestras de emisiones gaseosas?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Que las chimeneas tengan salida vertical sin obstáculos"
+        },
+        {
+          "key": "b",
+          "text": "Que las emisiones sean muestreadas una vez al año"
+        },
+        {
+          "key": "c",
+          "text": "Que solo se monitoreen las industrias químicas"
+        },
+        {
+          "key": "d",
+          "text": "Que todas las empresas utilicen los mismos métodos de medición"
+        }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q12",
+      "question": "¿Para qué se utiliza la norma IRAM 4062 en Argentina?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Para medir emisiones de CO2"
+        },
+        {
+          "key": "b",
+          "text": "Para regular los niveles de ruido en áreas urbanas"
+        },
+        {
+          "key": "c",
+          "text": "Para definir los valores máximos de ozono en la atmósfera"
+        },
+        {
+          "key": "d",
+          "text": "Para prohibir la contaminación sonora en todo el país"
+        }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q13",
+      "question": "¿Qué organismo argentino es responsable de hacer cumplir las normativas ambientales?",
+      "options": [
+        {
+          "key": "a",
+          "text": "El Ministerio de Medio Ambiente y Desarrollo Sostenible"
+        },
+        {
+          "key": "b",
+          "text": "La Organización Mundial de la Salud"
+        },
+        {
+          "key": "c",
+          "text": "La Cámara de Industria y Comercio"
+        },
+        {
+          "key": "d",
+          "text": "La Secretaría de Energía"
+        }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q14",
+      "question": "¿Qué ocurre si una industria modifica sus emisiones a la atmósfera sin avisar a la autoridad competente?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Puede seguir operando sin restricciones"
+        },
+        {
+          "key": "b",
+          "text": "Debe informar con al menos 60 días de anticipación"
+        },
+        {
+          "key": "c",
+          "text": "Solo debe informar si la modificación aumenta las emisiones en más del 50%"
+        },
+        {
+          "key": "d",
+          "text": "No es necesario informar, solo presentar un nuevo informe anual"
+        }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q15",
+      "question": "¿Qué define la legislación argentina como “vertido o volcado” de sustancias peligrosas?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Situaciones en las que sustancias tratadas se liberan sin riesgo ambiental"
+        },
+        {
+          "key": "b",
+          "text": "Situaciones intencionales en las que residuos peligrosos se liberan al ambiente"
+        },
+        {
+          "key": "c",
+          "text": "Fugas accidentales de sustancias en fábricas"
+        },
+        {
+          "key": "d",
+          "text": "La emisión de vapor de agua en procesos industriales"
+        }
+      ],
+      "correct_answer": "b"
+    }
+  ]

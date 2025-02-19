@@ -1,0 +1,112 @@
+[
+    {
+      "id": "Q1",
+      "question": "¿Según la Convención de Basilea, ¿cuál de las siguientes categorías corresponde a residuos peligrosos generados en procesos industriales específicos?",
+      "options": [
+        { "key": "a", "text": "Y1-Y18" },
+        { "key": "b", "text": "Y19-Y45" },
+        { "key": "c", "text": "H1-H13" },
+        { "key": "d", "text": "D1-D15" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q2",
+      "question": "¿Cuál de las siguientes condiciones NO es un criterio suficiente para que un residuo sea considerado peligroso según la legislación argentina?",
+      "options": [
+        { "key": "a", "text": "Presentar características como toxicidad, inflamabilidad o reactividad" },
+        { "key": "b", "text": "Contener sustancias definidas como peligrosas" },
+        { "key": "c", "text": "Superar límites establecidos en ensayos normalizados" },
+        { "key": "d", "text": "Proceder exclusivamente de actividades industriales" }
+      ],
+      "correct_answer": "d"
+    },
+    {
+      "id": "Q3",
+      "question": "En el proceso de pirólisis de residuos sólidos urbanos, ¿cuál es la principal diferencia con la incineración?",
+      "options": [
+        { "key": "a", "text": "La pirólisis es un proceso exotérmico, mientras que la incineración es endotérmica" },
+        { "key": "b", "text": "La incineración requiere oxígeno en exceso, mientras que la pirólisis ocurre en ausencia de oxígeno" },
+        { "key": "c", "text": "La pirólisis produce solo residuos gaseosos, mientras que la incineración genera residuos líquidos y sólidos" },
+        { "key": "d", "text": "La incineración es más costosa y menos eficiente que la pirólisis" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q4",
+      "question": "¿Qué diferencia clave distingue un residuo peligroso reactivo de un residuo peligroso inflamable?",
+      "options": [
+        { "key": "a", "text": "Los residuos reactivos generan reacciones químicas violentas espontáneamente, mientras que los inflamables solo arden en presencia de una fuente de ignición" },
+        { "key": "b", "text": "Los residuos inflamables tienen un punto de inflamación menor a 100°C, mientras que los reactivos no tienen límite de temperatura" },
+        { "key": "c", "text": "Los residuos reactivos son peligrosos solo en estado gaseoso, mientras que los inflamables pueden ser sólidos, líquidos o gaseosos" },
+        { "key": "d", "text": "Los residuos inflamables generan vapores tóxicos en presencia de agua, mientras que los reactivos no" }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q5",
+      "question": "¿Según la normativa argentina, ¿qué diferencia existe entre un residuo peligroso y un residuo especial?",
+      "options": [
+        { "key": "a", "text": "Los residuos peligrosos están regulados por la Ley 24.051 y los residuos especiales por normativas específicas de cada provincia" },
+        { "key": "b", "text": "Los residuos especiales incluyen solo desechos electrónicos, mientras que los peligrosos abarcan más categorías" },
+        { "key": "c", "text": "Los residuos peligrosos son generados exclusivamente por la industria, mientras que los especiales incluyen residuos domiciliarios" },
+        { "key": "d", "text": "No hay diferencia, ambos términos son sinónimos en la legislación argentina" }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q6",
+      "question": "¿Cuál de las siguientes afirmaciones sobre la biometanización de residuos orgánicos es INCORRECTA?",
+      "options": [
+        { "key": "a", "text": "Es un proceso anaerobio que produce biogás y digestato" },
+        { "key": "b", "text": "Puede realizarse mediante digestión anaerobia de vía húmeda o vía seca" },
+        { "key": "c", "text": "Es un proceso endotérmico que requiere aporte de calor externo para mantenerse" },
+        { "key": "d", "text": "El metano producido puede ser utilizado como fuente de energía" }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q7",
+      "question": "En el sistema de Gestión Integral de Residuos Sólidos Urbanos (GIRSU), ¿cuál de las siguientes estrategias tiene el mayor impacto en la reducción de residuos enviados a disposición final?",
+      "options": [
+        { "key": "a", "text": "La clasificación y reciclaje de materiales recuperables" },
+        { "key": "b", "text": "La compactación de residuos antes de su disposición final" },
+        { "key": "c", "text": "La construcción de nuevos rellenos sanitarios" },
+        { "key": "d", "text": "La implementación de estaciones de transferencia" }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q8",
+      "question": "Según la Ley Nacional 24.051, ¿cuál de las siguientes obligaciones NO aplica a los generadores de residuos peligrosos?",
+      "options": [
+        { "key": "a", "text": "Inscribirse en el Registro de Generadores y Operadores" },
+        { "key": "b", "text": "Separar y envasar los residuos en recipientes identificados" },
+        { "key": "c", "text": "Deshacerse de los residuos mediante cualquier método que minimice costos operativos" },
+        { "key": "d", "text": "Entregar los residuos peligrosos a transportistas autorizados" }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q9",
+      "question": "¿Cuál de los siguientes procesos de tratamiento mecánico de residuos NO implica reducción de volumen?",
+      "options": [
+        { "key": "a", "text": "Compactación" },
+        { "key": "b", "text": "Trituración" },
+        { "key": "c", "text": "Clasificación o separación" },
+        { "key": "d", "text": "Reducción de tamaño" }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q10",
+      "question": "¿Cuál es la principal ventaja de los tratamientos mecánicos-biológicos (TMB) en comparación con la incineración?",
+      "options": [
+        { "key": "a", "text": "Permiten una recuperación eficiente de energía" },
+        { "key": "b", "text": "Son más baratos y generan menos emisiones contaminantes" },
+        { "key": "c", "text": "Requieren menor infraestructura y pueden aplicarse sin separación previa de residuos" },
+        { "key": "d", "text": "Eliminan por completo la necesidad de rellenos sanitarios" }
+      ],
+      "correct_answer": "b"
+    }
+  ]
