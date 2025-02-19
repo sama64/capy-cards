@@ -1,4 +1,4 @@
-import { writable } from 'svelte/store';
+import { writable, get } from 'svelte/store';
 import { browser } from '$app/environment';
 
 const STATS_STORAGE_KEY = 'quiz_stats';
@@ -15,70 +15,113 @@ function saveStats(stats) {
 }
 
 function createQuizStore() {
-  const { subscribe, set, update } = writable({
+  const store = writable({
     questions: [],
-    stats: loadStats(),
-    questionQueue: [],
     currentQuestion: null,
+    questionQueue: [],
+    sessionQueue: [],
+    stats: loadStats(),
   });
 
   return {
-    subscribe,
-    loadQuizzes: (questions) => {
-      update(state => {
-        const questionQueue = createQuestionQueue(questions, state.stats);
-        return {
-          ...state,
-          questions,
-          questionQueue,
-          currentQuestion: questionQueue[0] || null,
-        };
-      });
+    subscribe: store.subscribe,
+    
+    setQuestions: (questions) => {
+      const initialQueue = [...questions].sort(() => Math.random() - 0.5);
+      store.update(s => ({
+        ...s,
+        questions,
+        questionQueue: initialQueue,
+        sessionQueue: [...initialQueue],
+        currentQuestion: initialQueue[0] || null,
+      }));
     },
+    
     answerQuestion: (answer) => {
-      update(state => {
-        if (!state.currentQuestion) return state;
-
-        const isCorrect = answer === state.currentQuestion.correct_answer;
-        const newStats = updateStats(state.stats, state.currentQuestion.id, isCorrect);
-        const newQueue = state.questionQueue.slice(1);
-
-        // If queue is empty, recreate it with updated stats
-        const finalQueue = newQueue.length === 0 
-          ? createQuestionQueue(state.questions, newStats) 
-          : newQueue;
-
+      store.update(s => {
+        const currentQuestion = s.currentQuestion;
+        if (!currentQuestion) return s;
+        
+        // Update stats
+        const questionStats = s.stats[currentQuestion.id] || { attempts: 0, correct: 0, successRate: 0 };
+        const isCorrect = answer === currentQuestion.correct_answer;
+        const newStats = {
+          attempts: questionStats.attempts + 1,
+          correct: questionStats.correct + (isCorrect ? 1 : 0),
+          successRate: (questionStats.correct + (isCorrect ? 1 : 0)) / (questionStats.attempts + 1),
+        };
+        
         // Save stats to localStorage
-        saveStats(newStats);
-
-        return {
-          ...state,
-          stats: newStats,
-          questionQueue: finalQueue,
-          currentQuestion: finalQueue[0] || null,
-        };
-      });
-    },
-    resetQuiz: () => {
-      set({
-        questions: [],
-        stats: loadStats(), // Keep the stats when resetting the quiz
-        questionQueue: [],
-        currentQuestion: null,
-      });
-    },
-    clearStats: () => {
-      update(state => {
-        if (browser) {
-          localStorage.removeItem(STATS_STORAGE_KEY);
+        const updatedStats = { ...s.stats, [currentQuestion.id]: newStats };
+        saveStats(updatedStats);
+        
+        // Update the main queue order based on success rate
+        const updatedQueue = [...s.questionQueue];
+        if (!isCorrect) {
+          // Move the question to a later position in the main queue
+          const currentIndex = updatedQueue.findIndex(q => q.id === currentQuestion.id);
+          if (currentIndex !== -1) {
+            const question = updatedQueue.splice(currentIndex, 1)[0];
+            const newPosition = Math.min(currentIndex + 3, updatedQueue.length);
+            updatedQueue.splice(newPosition, 0, question);
+          }
         }
+        
+        // For the session, just move to the next question in the fixed session order
+        const currentSessionIndex = s.sessionQueue.findIndex(q => q.id === currentQuestion.id);
+        const nextQuestion = currentSessionIndex < s.sessionQueue.length - 1 
+          ? s.sessionQueue[currentSessionIndex + 1] 
+          : null;
+        
         return {
-          ...state,
-          stats: {},
-          questionQueue: createQuestionQueue(state.questions, {}),
+          ...s,
+          questionQueue: updatedQueue,
+          currentQuestion: nextQuestion,
+          stats: updatedStats,
         };
       });
-    }
+    },
+    
+    resetQuiz: () => {
+      store.update(s => ({
+        ...s,
+        currentQuestion: null,
+        questionQueue: [],
+        sessionQueue: [],
+      }));
+    },
+
+    clearStats: () => {
+      if (browser) {
+        localStorage.removeItem(STATS_STORAGE_KEY);
+      }
+      store.update(s => ({
+        ...s,
+        stats: {},
+      }));
+    },
+
+    getQuizStats: (quizId) => {
+      const state = get(store);
+      const stats = state.stats;
+      
+      // Filter stats for questions belonging to this quiz
+      const quizStats = Object.entries(stats)
+        .filter(([id]) => id.startsWith(`${quizId}_`))
+        .map(([_, stat]) => stat);
+      
+      if (quizStats.length === 0) return { attempts: 0, correct: 0, successRate: 0 };
+      
+      // Calculate aggregate stats
+      const totalAttempts = quizStats.reduce((sum, stat) => sum + stat.attempts, 0);
+      const totalCorrect = quizStats.reduce((sum, stat) => sum + stat.correct, 0);
+      
+      return {
+        attempts: totalAttempts,
+        correct: totalCorrect,
+        successRate: totalCorrect / totalAttempts,
+      };
+    },
   };
 }
 

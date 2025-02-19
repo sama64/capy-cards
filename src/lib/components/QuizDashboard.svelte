@@ -17,8 +17,12 @@
     }
   });
   
-  function handleQuizSelect(questions, name) {
-    quizStore.loadQuizzes(questions);
+  function handleQuizSelect(quiz) {
+    const questions = quiz.questions.map((q, index) => ({
+      ...q,
+      id: `${quiz.id}_${index}`,
+    }));
+    quizStore.setQuestions(questions);
   }
   
   function removeQuiz(index) {
@@ -27,7 +31,12 @@
   }
   
   function addQuiz(questions, file) {
-    quizFiles = [...quizFiles, { name: file.name, questions }];
+    const quizId = crypto.randomUUID();
+    quizFiles = [...quizFiles, { 
+      id: quizId,
+      name: file.name, 
+      questions 
+    }];
     saveQuizzes();
   }
   
@@ -35,6 +44,15 @@
     if (browser) {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(quizFiles));
     }
+  }
+
+  function getQuizProgress(quiz) {
+    const stats = quizStore.getQuizStats(quiz.id);
+    return {
+      ...stats,
+      successRateFormatted: `${Math.round(stats.successRate * 100)}%`,
+      hasAttempts: stats.attempts > 0,
+    };
   }
 </script>
 
@@ -52,11 +70,20 @@
           </button>
         </div>
         <div class="grid gap-4 md:grid-cols-2">
-          {#each quizFiles as { name, questions }, i}
+          {#each quizFiles as quiz, i}
+            {@const progress = getQuizProgress(quiz)}
             <div class="card bg-base-200">
               <div class="card-body">
-                <h3 class="card-title text-lg">{name}</h3>
-                <p class="text-sm opacity-70">{questions.length} questions</p>
+                <h3 class="card-title text-lg">{quiz.name}</h3>
+                <div class="space-y-1">
+                  <p class="text-sm opacity-70">{quiz.questions.length} questions</p>
+                  {#if progress.hasAttempts}
+                    <p class="text-sm">
+                      Success Rate: <span class="font-semibold">{progress.successRateFormatted}</span>
+                      <span class="text-xs opacity-70">({progress.correct}/{progress.attempts} correct)</span>
+                    </p>
+                  {/if}
+                </div>
                 <div class="card-actions justify-end mt-4">
                   <button
                     class="btn btn-error btn-sm"
@@ -66,7 +93,7 @@
                   </button>
                   <button
                     class="btn btn-primary btn-sm"
-                    on:click={() => handleQuizSelect(questions, name)}
+                    on:click={() => handleQuizSelect(quiz)}
                   >
                     Start Quiz
                   </button>
