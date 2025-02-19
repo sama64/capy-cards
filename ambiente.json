@@ -1,0 +1,458 @@
+[
+    {
+      "id": "Q1",
+      "question": "¿Qué es un aspecto ambiental?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Cualquier elemento de las actividades, productos o servicios de una empresa que interactúa con el medio ambiente"
+        },
+        { "key": "b", "text": "La cantidad de residuos que genera una empresa" },
+        { "key": "c", "text": "El tipo de producto que produce una empresa" }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q2",
+      "question": "¿Cuál es el objetivo principal de la fase de planificación del ciclo de mejora continua?",
+      "options": [
+        { "key": "a", "text": "Evaluar la eficacia del sistema de gestión ambiental" },
+        { "key": "b", "text": "Implementar acciones para mejorar el desempeño ambiental de la empresa" },
+        {
+          "key": "c",
+          "text": "Establecer objetivos ambientales y definir el alcance del sistema de gestión ambiental"
+        }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q3",
+      "question": "¿Qué es un impacto ambiental?",
+      "options": [
+        {
+          "key": "a",
+          "text": "El gasto que supone la implementación de un sistema de gestión ambiental"
+        },
+        {
+          "key": "b",
+          "text": "El resultado de la interacción entre un aspecto ambiental y el medio ambiente"
+        },
+        { "key": "c", "text": "El costo de los daños ambientales que causa una empresa" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q4",
+      "question": "¿Cuál es el propósito de una auditoría interna de un sistema de gestión ambiental?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Verificar el cumplimiento del sistema propuesto por la empresa"
+        },
+        {
+          "key": "b",
+          "text": "Identificar áreas de mejora en el sistema de gestión ambiental"
+        },
+        {
+          "key": "c",
+          "text": "Determinar la cantidad de emisiones de gases de efecto invernadero de la empresa"
+        }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q5",
+      "question": "¿Qué es un indicador ambiental?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Un elemento medible que refleja el desempeño ambiental de la empresa"
+        },
+        {
+          "key": "b",
+          "text": "Un análisis estadístico del impacto ambiental de la empresa"
+        },
+        {
+          "key": "c",
+          "text": "Una estrategia de marketing verde para mejorar la imagen de la empresa"
+        }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q6",
+      "question": "¿Qué es un plan de emergencia ambiental?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Un documento que describe la política ambiental de la empresa"
+        },
+        {
+          "key": "b",
+          "text": "Un conjunto de procedimientos para manejar y controlar los impactos ambientales en caso de emergencias"
+        },
+        {
+          "key": "c",
+          "text": "Un plan para la reducción de costos ambientales en caso de emergencias"
+        }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q7",
+      "question": "¿Cuál es el propósito de la fase de seguimiento y medición del ciclo de mejora continua?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Evaluar el desempeño ambiental de la empresa mediante el monitoreo y la medición de los indicadores ambientales"
+        },
+        { "key": "b", "text": "Establecer los objetivos ambientales de la empresa" },
+        {
+          "key": "c",
+          "text": "Implementar acciones para mejorar el desempeño ambiental de la empresa"
+        }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q8",
+      "question": "¿Cuál es el objetivo principal de la logística inversa en el contexto de la economía circular?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Optimizar la distribución de productos desde la fabricación hasta el consumidor."
+        },
+        {
+          "key": "b",
+          "text": "Facilitar la recolección y el retorno de productos y materiales usados para su reutilización o reciclaje."
+        },
+        {
+          "key": "c",
+          "text": "Incrementar el número de almacenes y puntos de venta para reducir costos."
+        },
+        {
+          "key": "d",
+          "text": "Minimizar el uso de envases y embalajes en el transporte de productos."
+        }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q9",
+      "question": "En el contexto de la economía circular, ¿qué significa el término \"Cradle to Cradle\" o \"De la cuna a la cuna\"?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Un enfoque que considera el ciclo de vida completo de un producto, desde la producción hasta el desecho responsable."
+        },
+        {
+          "key": "b",
+          "text": "Un sistema de producción lineal en el que los productos se convierten en residuos después de su uso."
+        },
+        {
+          "key": "c",
+          "text": "La práctica de fabricar productos utilizando solo materiales reciclados, sin incorporar nuevos recursos."
+        },
+        {
+          "key": "d",
+          "text": "Un modelo de negocio centrado en la producción masiva de bienes a bajo costo."
+        }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q10",
+      "question": "¿Cuál de las siguientes áreas NO se considera típicamente en una EIA?",
+      "options": [
+        { "key": "a", "text": "Impacto en la biodiversidad." },
+        { "key": "b", "text": "Impacto económico del proyecto." },
+        { "key": "c", "text": "Impacto en la calidad del aire." },
+        { "key": "d", "text": "Impacto en la salud de los trabajadores del proyecto." }
+      ],
+      "correct_answer": "d"
+    },
+    {
+      "id": "Q11",
+      "question": "¿Qué se entiende por \"impacto significativo\" en el contexto de una EIA?",
+      "options": [
+        { "key": "a", "text": "Cualquier impacto, independientemente de su magnitud." },
+        { "key": "b", "text": "Impactos que son fácilmente mitigables." },
+        {
+          "key": "c",
+          "text": "Impactos que pueden ser perjudiciales para el medio ambiente o la salud humana."
+        },
+        { "key": "d", "text": "Impactos que necesitan ser considerados en el informe final." }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q12",
+      "question": "¿Qué es la Evaluación de Impacto Ambiental (EIA)?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Un es el procedimiento obligatorio que permite identificar, predecir, evaluar y mitigar los potenciales impactos ambientales de un proyecto."
+        },
+        {
+          "key": "b",
+          "text": "Un estudio que se utiliza para evaluar el impacto potencial de un proyecto o actividad en el medio ambiente"
+        },
+        {
+          "key": "c",
+          "text": "Un informe que se completa después de que un proyecto ha terminado para analizar su impacto en su entorno."
+        }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q13",
+      "question": "¿Cuál de las siguientes acciones podría considerarse una medida de eficiencia energética en la industria?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Reemplazar equipos obsoletos por otros de la misma eficiencia"
+        },
+        {
+          "key": "b",
+          "text": "Optimizar el uso de recursos naturales sin reducir el consumo energético"
+        },
+        {
+          "key": "c",
+          "text": "Implementar sistemas de monitorización y control del consumo energético."
+        },
+        {
+          "key": "d",
+          "text": "Aumentar la producción sin considerar el consumo de energía"
+        }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q14",
+      "question": "¿Qué es la norma ISO 50001 en el contexto de la gestión energética industrial?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Un estándar internacional para la medición del consumo de energía"
+        },
+        {
+          "key": "b",
+          "text": "Una directiva europea para la reducción de emisiones de gases de efecto invernadero."
+        },
+        {
+          "key": "c",
+          "text": "Un marco de referencia para la implementación de sistemas de gestión de energía eficiente."
+        },
+        {
+          "key": "d",
+          "text": "Una legislación nacional para el uso obligatorio de fuentes de energía renovable."
+        }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q15",
+      "question": "¿Cuál es el objetivo principal de realizar un diagnóstico energético en una instalación industrial?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Identificar las fuentes de energía renovable disponibles en la zona."
+        },
+        {
+          "key": "b",
+          "text": "Establecer un plan de financiamiento para proyectos de eficiencia energética."
+        },
+        {
+          "key": "c",
+          "text": "Evaluar y analizar el consumo de energía actual y detectar posibles áreas de mejora."
+        },
+        {
+          "key": "d",
+          "text": "Cumplir con las regulaciones ambientales y reducir las emisiones de gases de efecto invernadero."
+        }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q16",
+      "question": "¿Cuál de los siguientes indicadores se utiliza comúnmente para evaluar el desempeño energético de una instalación industrial?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Consumo total de energía en kilovatios-hora (kWh) por año."
+        },
+        {
+          "key": "b",
+          "text": "Número de empleados en el área de gestión energética."
+        },
+        {
+          "key": "c",
+          "text": "Porcentaje de uso de energía renovable en la producción."
+        },
+        {
+          "key": "d",
+          "text": "Valor monetario de las inversiones en eficiencia energética."
+        }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q17",
+      "question": "¿Cuál es el objetivo principal de implementar medidas de eficiencia energética en un edificio o instalación?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Reducir el consumo de energía sin afectar el nivel de confort o productividad."
+        },
+        {
+          "key": "b",
+          "text": "Apagar y desconectar dispositivos cuando no estén en uso para evitar el desperdicio de energía."
+        },
+        {
+          "key": "c",
+          "text": "Sustituir equipos de alto consumo energético por alternativas más eficientes, manteniendo el mismo nivel de actividad."
+        }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q18",
+      "question": "¿Qué se entiende por eficiencia energética en términos de conversión de energía?",
+      "options": [
+        {
+          "key": "a",
+          "text": "La relación cuantitativa entre la energía requerida y la energía utilizada."
+        },
+        {
+          "key": "b",
+          "text": "La proporción entre la salida de energía y la entrada de energía en un proceso."
+        },
+        {
+          "key": "c",
+          "text": "El valor teórico de la energía utilizada en comparación con la energía real utilizada."
+        },
+        {
+          "key": "d",
+          "text": "La reducción de la cantidad de energía sin afectar la calidad de los productos o servicios."
+        }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q19",
+      "question": "¿Cuál es el tipo de panel solar más eficiente?",
+      "options": [
+        { "key": "a", "text": "Panel policristalino" },
+        { "key": "b", "text": "Panel monocristalino" },
+        { "key": "c", "text": "Panel amorfo" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q20",
+      "question": "¿Qué partícula absorbe un panel solar para producir energía eléctrica?",
+      "options": [
+        { "key": "a", "text": "Átomo de Silicio" },
+        { "key": "b", "text": "Fotón" },
+        { "key": "c", "text": "Átomo de Boro" },
+        { "key": "d", "text": "Material particulado" }
+      ],
+      "correct_answer": "b"
+    },
+    {
+      "id": "Q21",
+      "question": "¿Cómo se produce energía eléctrica a partir del Sol?",
+      "options": [
+        { "key": "a", "text": "Efecto fotovoltaico" },
+        { "key": "b", "text": "Radiación Ultravioleta" },
+        { "key": "c", "text": "Presión Atmosférica" },
+        { "key": "d", "text": "Calentamiento Global" }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q22",
+      "question": "¿Qué es un inversor en un sistema fotovoltaico?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Un dispositivo que convierte corriente continua en corriente alterna"
+        },
+        {
+          "key": "b",
+          "text": "Un dispositivo que convierte corriente alterna en corriente continua"
+        },
+        { "key": "c", "text": "Un dispositivo que almacena energía solar" },
+        { "key": "d", "text": "Ninguna de las anteriores" }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q23",
+      "question": "¿Cuál es el ángulo de inclinación óptimo para una instalación de paneles solares en la mayoría de las regiones del mundo?",
+      "options": [
+        { "key": "a", "text": "0 grados" },
+        { "key": "b", "text": "15 grados" },
+        { "key": "c", "text": "30 grados" },
+        { "key": "d", "text": "Depende de la ubicación geográfica" }
+      ],
+      "correct_answer": "d"
+    },
+    {
+      "id": "Q24",
+      "question": "¿Cómo afecta la temperatura a la producción de energía en un sistema fotovoltaico?",
+      "options": [
+        {
+          "key": "a",
+          "text": "La producción de energía disminuye a medida que aumenta la temperatura"
+        },
+        {
+          "key": "b",
+          "text": "La producción de energía aumenta a medida que aumenta la temperatura"
+        },
+        {
+          "key": "c",
+          "text": "La temperatura no tiene ningún efecto en la producción de energía"
+        }
+      ],
+      "correct_answer": "a"
+    },
+    {
+      "id": "Q25",
+      "question": "¿Qué es la eficiencia de conversión de energía?",
+      "options": [
+        {
+          "key": "a",
+          "text": "La cantidad de energía que se genera en un sistema fotovoltaico"
+        },
+        {
+          "key": "b",
+          "text": "La cantidad de energía que se pierde en un sistema fotovoltaico"
+        },
+        {
+          "key": "c",
+          "text": "La cantidad de energía que se convierte en electricidad en relación con la cantidad de energía solar que incide sobre un panel solar"
+        }
+      ],
+      "correct_answer": "c"
+    },
+    {
+      "id": "Q26",
+      "question": "¿Qué es la norma ISO 50001 en el contexto de la gestión energética industrial?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Una directiva europea para la reducción de gases de efecto invernadero"
+        },
+        {
+          "key": "b",
+          "text": "Una legislación nacional para el uso obligatorio de fuentes de energía renovable"
+        },
+        {
+          "key": "c",
+          "text": "Un marco de referencia para la implementación de sistemas de gestión de energía eficiente"
+        }
+      ],
+      "correct_answer": "c"
+    }
+  ]
